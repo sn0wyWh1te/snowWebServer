@@ -1,0 +1,31 @@
+{
+    files = {
+        "build/.objs/timer_test/linux/x86_64/release/__/Buffer.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Channel.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/EventLoopThread.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Socket.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/DefaultPoller.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/TimerQueue.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Poller.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/CurrentThread.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/TcpServer.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Timestamp.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Logger.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Acceptor.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/EventLoopThreadPool.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/TcpConnection.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/EPollPoller.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/EventLoop.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/InetAddress.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Timer.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/__/Thread.cc.o",
+        "build/.objs/timer_test/linux/x86_64/release/main.cc.o"
+    },
+    values = {
+        "/usr/bin/g++",
+        {
+            "-m64",
+            "-lpthread"
+        }
+    }
+}

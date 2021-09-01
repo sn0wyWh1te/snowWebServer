@@ -1,0 +1,17 @@
+add_rules("mode.debug")
+add_includedirs("./inc","./SnowTcpLib","./webServer")
+
+target("webserver")
+    set_kind("binary")
+    add_files("./src/*.cc")
+    add_files("./webServer/*.cc")
+    add_linkdirs("/usr/lib/x86_64-linux-gnu")
+    add_deps("SnowTcpLib")
+    add_links("mysqlclient")
+    set_targetdir("./")
+
+target("SnowTcpLib")
+    set_kind("shared")
+    add_files("./SnowTcpLib/*.cc")
+    add_links("pthread")
+    set_targetdir("./")

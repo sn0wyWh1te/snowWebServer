@@ -1,0 +1,58 @@
+{
+    find_program_gcc_arch_x86_64_plat_linux = {
+        gcc = "/usr/bin/gcc",
+        ["g++"] = "/usr/bin/g++"
+    },
+    ["detect.tools.gcc.has_flags"] = {
+        ["/usr/bin/gcc_7.5.0-3ubuntu1"] = {
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-Xassembler"] = true,
+            ["-Xpreprocessor"] = true,
+            ["-save-temps"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-time"] = true,
+            ["-B"] = true,
+            ["--help"] = true,
+            ["-pie"] = true,
+            ["--param"] = true,
+            ["--version"] = true,
+            ["-S"] = true,
+            ["-E"] = true,
+            ["-print-multi-lib"] = true,
+            ["-print-multi-directory"] = true,
+            ["-shared"] = true,
+            ["-Xlinker"] = true,
+            ["-dumpspecs"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["-print-search-dirs"] = true,
+            ["-pass-exit-codes"] = true,
+            ["--target-help"] = true,
+            ["-x"] = true,
+            ["-dumpversion"] = true,
+            ["-dumpmachine"] = true,
+            ["-pipe"] = true,
+            ["-v"] = true,
+            ["-print-multiarch"] = true,
+            ["-o"] = true,
+            ["-c"] = true,
+            ["-print-multi-os-directory"] = true,
+            ["-print-sysroot"] = true
+        }
+    },
+    find_programver = {
+        ["/usr/bin/gcc"] = "7.5.0-3ubuntu1"
+    },
+    ["lib.detect.has_flags"] = {
+        ["linux_x86_64_/usr/bin/gcc_7.5.0-3ubuntu1_cxx_cxflags__-MMD -MF"] = true,
+        ["linux_x86_64_/usr/bin/gcc_7.5.0-3ubuntu1_cxx_cxflags__-fdiagnostics-color=always"] = true
+    },
+    find_program = {
+        dmd = false,
+        ldc2 = false,
+        gdc = false,
+        gcc = "/usr/bin/gcc",
+        ccache = "/usr/bin/ccache",
+        zig = false,
+        ["/usr/bin/gcc"] = "/usr/bin/gcc"
+    }
+}
